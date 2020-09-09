@@ -12,6 +12,11 @@ La función polygonArea devuelve el área de un polígono. Para ejecutar el arch
 `python polygonArea.py n_lados`  
 Donde n_lados es un número natural positivo.  
 
+## isbn_validator.py
+La función isValidISBN devuelve true si cumple con el comportamiento descrito por el Pseudocódigo. Para ejecutar el archivo desde el IDLE de Python, se realiza el mismo procedimiento que para el archivo *factorial.py* y *polygonArea.py*, y para ejecutarlo desde línea de comandos, es necesario ejecutar el siguiente comando:  
+`python isbn_validator.py isbn`    
+Donde isbn es una cadena isbn.  
+
 ## Pseudocódigo para validar ISBN
 
 1. Partimos de una cadena que representa el ISBN.
