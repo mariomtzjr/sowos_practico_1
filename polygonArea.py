@@ -7,6 +7,9 @@
     6 -> 61
     n^2 + (n-1)^2
 """
+import sys
+
+numero = sys.argv[1]
 
 def polygonArea(numero):
     return (numero**2 + (numero - 1)**2)
